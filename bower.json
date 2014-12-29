@@ -1,25 +1,35 @@
 {
-  "name": "amber-examples",
-  "version": "0.1.0",
-  "homepage": "https://github.com/herby/amber-examples",
-  "description": "Amber Examples",
-  "keywords": [
-    "javascript",
-    "smalltalk",
-    "language",
-    "compiler",
-    "web"
-  ],
-  "license": "MIT",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "amber": "^0.12.6"
-  }
+    "name": "trysmalltalk",
+    "description": "Tutorial to learn Smalltalk",
+    "version": "0.1.0",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "/test_runner.js",
+        "test",
+        "tests"
+    ],
+    "authors": [
+        {
+            "name": "hhzl",
+            "email": "hannes.hirzel@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/amber-smalltalk/trysmalltalk",
+    "keywords": [
+        "Amber",
+        "Smalltalk"
+    ],
+    "license": [
+        "MIT"
+    ],
+    "private": true,
+    "dependencies": {
+        "amber": "^0.13.2"
+    },
+    "devDependencies": {
+        "amber-ide-starter-dialog": "^0.1.0",
+        "helios": "^0.3.0"
+    }
 }
