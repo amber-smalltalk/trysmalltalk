@@ -824,7 +824,7 @@ function $Lesson(){return $globals.Lesson||(typeof Lesson=="undefined"?nil:Lesso
 return $core.withContext(function($ctx1) { 
 //>>excludeEnd("ctx");
 var $1;
-$1=$recv($Lesson())._title_contents_("Reflection","\x22You can inspect and change the system at runtime.\x0a\x0aTake a look at the source code of the method #and: of the class Boolean:\x22\x0a\x0a(Boolean methodDictionary at: 'and:') source.\x0a\x0a\x22Or all the methods it sends:\x22\x0a\x0a(Boolean methodDictionary at: 'and:') messageSends.\x0a\x0a\x22Here's all the methods I implement:\x22\x0a\x0aProfStef methodDictionary.\x0a\x0a\x22Let's create a new method to go to the next lesson:\x22\x0a\x0a|newMethod|\x0anewMethod := Compiler new\x0a\x09install: 'goToNextLesson ProfStef next.'\x0a\x09forClass: ProfStef\x0a\x09category: 'navigation'.\x0aProfStef class addCompiledMethod: newMethod\x0a\x0a\x22Wow! I can't wait to use my new method!\x22\x0a\x0aProfStef goToNextLesson.");
+$1=$recv($Lesson())._title_contents_("Reflection","\x22You can inspect and change the system at runtime.\x0a\x0aTake a look at the source code of the method #and: of the class Boolean:\x22\x0a\x0a(Boolean methodDictionary at: 'and:') source.\x0a\x0a\x22Or all the methods it sends:\x22\x0a\x0a(Boolean methodDictionary at: 'and:') messageSends.\x0a\x0a\x22Here's all the methods I implement:\x22\x0a\x0aProfStef methodDictionary.\x0a\x0a\x22Let's create a new method to go to the next lesson:\x22\x0a\x0a|newMethod|\x0anewMethod := Compiler new\x0a\x09install: 'goToNextLesson ProfStef next.'\x0a\x09forClass: ProfStef\x0a\x09protocol: 'navigation'.\x0aProfStef class addCompiledMethod: newMethod\x0a\x0a\x22Wow! I can't wait to use my new method!\x22\x0a\x0aProfStef goToNextLesson.");
 return $1;
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 }, function($ctx1) {$ctx1.fill(self,"reflection",{},$globals.SmalltalkSyntaxTutorial)});
@@ -832,7 +832,7 @@ return $1;
 },
 //>>excludeStart("ide", pragmas.excludeIdeData);
 args: [],
-source: "reflection\x0a\x09^ Lesson\x0atitle: 'Reflection' \x0acontents: \x0a'\x22You can inspect and change the system at runtime.\x0a\x0aTake a look at the source code of the method #and: of the class Boolean:\x22\x0a\x0a(Boolean methodDictionary at: ''and:'') source.\x0a\x0a\x22Or all the methods it sends:\x22\x0a\x0a(Boolean methodDictionary at: ''and:'') messageSends.\x0a\x0a\x22Here''s all the methods I implement:\x22\x0a\x0aProfStef methodDictionary.\x0a\x0a\x22Let''s create a new method to go to the next lesson:\x22\x0a\x0a|newMethod|\x0anewMethod := Compiler new\x0a\x09install: ''goToNextLesson ProfStef next.''\x0a\x09forClass: ProfStef\x0a\x09category: ''navigation''.\x0aProfStef class addCompiledMethod: newMethod\x0a\x0a\x22Wow! I can''t wait to use my new method!\x22\x0a\x0aProfStef goToNextLesson.'",
+source: "reflection\x0a\x09^ Lesson\x0atitle: 'Reflection' \x0acontents: \x0a'\x22You can inspect and change the system at runtime.\x0a\x0aTake a look at the source code of the method #and: of the class Boolean:\x22\x0a\x0a(Boolean methodDictionary at: ''and:'') source.\x0a\x0a\x22Or all the methods it sends:\x22\x0a\x0a(Boolean methodDictionary at: ''and:'') messageSends.\x0a\x0a\x22Here''s all the methods I implement:\x22\x0a\x0aProfStef methodDictionary.\x0a\x0a\x22Let''s create a new method to go to the next lesson:\x22\x0a\x0a|newMethod|\x0anewMethod := Compiler new\x0a\x09install: ''goToNextLesson ProfStef next.''\x0a\x09forClass: ProfStef\x0a\x09protocol: ''navigation''.\x0aProfStef class addCompiledMethod: newMethod\x0a\x0a\x22Wow! I can''t wait to use my new method!\x22\x0a\x0aProfStef goToNextLesson.'",
 referencedClasses: ["Lesson"],
 //>>excludeEnd("ide");
 messageSends: ["title:contents:"]
@@ -1099,6 +1099,31 @@ referencedClasses: [],
 messageSends: ["first", "tutorialPlayer", "showCurrentLesson"]
 }),
 $globals.ProfStef);
+
+$core.addMethod(
+$core.method({
+selector: "goToNextLesson",
+protocol: 'navigation',
+fn: function (){
+var self=this;
+function $ProfStef(){return $globals.ProfStef||(typeof ProfStef=="undefined"?nil:ProfStef)}
+//>>excludeStart("ctx", pragmas.excludeDebugContexts);
+return $core.withContext(function($ctx1) { 
+//>>excludeEnd("ctx");
+$recv($ProfStef())._next();
+return self;
+//>>excludeStart("ctx", pragmas.excludeDebugContexts);
+}, function($ctx1) {$ctx1.fill(self,"goToNextLesson",{},$globals.ProfStef)});
+//>>excludeEnd("ctx");
+},
+//>>excludeStart("ide", pragmas.excludeIdeData);
+args: [],
+source: "goToNextLesson ProfStef next.",
+referencedClasses: ["ProfStef"],
+//>>excludeEnd("ide");
+messageSends: ["next"]
+}),
+$globals.ProfStef.klass);
 
 $core.addMethod(
 $core.method({
