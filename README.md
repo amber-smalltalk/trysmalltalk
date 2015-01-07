@@ -1,6 +1,6 @@
 # TrySmalltalk
 
-Tutorial to learn Smalltalk
+Tutorial to learn Smalltalk, on-line here http://amber-smalltalk.github.io/trysmalltalk/
 
 ## Getting Started
 
