@@ -841,9 +841,7 @@ first
 
 go
 	self first.
-!
 
-goToNextLesson ProfStef next.
 !
 
 next
