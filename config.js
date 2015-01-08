@@ -19,8 +19,6 @@ require.config({
     "helios/index": "bower_components/helios/index",
     "amber-ide-starter-dialog": "bower_components/amber-ide-starter-dialog/lib/idestarter",
     "amber": "bower_components/amber/support",
-    "amber_vm": "bower_components/amber/support/deprecated-vm-files",
-    "amber_vm/_st": "bower_components/amber/support/deprecated-vm-files/as-receiver",
     "amber_css": "bower_components/amber/support/resources",
     "amber_core": "bower_components/amber/src",
     "amber-trysmalltalk": "src"

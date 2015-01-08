@@ -26,7 +26,7 @@
     ],
     "private": true,
     "dependencies": {
-        "amber": "^0.13.3"
+        "amber": "^0.14.0"
     },
     "devDependencies": {
         "amber-ide-starter-dialog": "^0.1.0",
