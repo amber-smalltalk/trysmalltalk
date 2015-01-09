@@ -2,10 +2,8 @@
 
 Tutorial to learn Smalltalk, on-line here http://amber-smalltalk.github.io/trysmalltalk/
 
-amber-examples
-==============
 
-This project an  [Amber Smalltalk](http://amber-lang.net/)  example. Amber may run in a web browser or as a command line program.
+This project is an [Amber Smalltalk](http://amber-lang.net/)  example. Amber may run in a web browser or as a command line program.
 
 
 Tools needed
