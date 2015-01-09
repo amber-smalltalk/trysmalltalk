@@ -7,7 +7,7 @@ This project is an [Amber Smalltalk](http://amber-lang.net/)  example. Amber may
 
 
 Tools needed
-=============
+------------
 
 1. A web browser with reasonably good support for HTML5 canvas.
 2. git, on Windows [Git for Windows](http://msysgit.github.com/)
@@ -16,7 +16,7 @@ Tools needed
 5. A global install of the [`bower`](http://bower.io/) client side package manager in order to install the dependencies
 6. A global install of the [`grunt-cli`](http://gruntjs.com/) task runner which is used as the command line build system 
 
-The `amber`, `bower` and `grunt-cli` packages can be installed with the following command (In some cases you have to call `npm` with `sudo npm`):
+The `amber`, `bower` and `grunt-cli` packages can be installed with the following command:
 
     npm install --global amber-cli bower grunt-cli
 
