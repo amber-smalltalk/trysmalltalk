@@ -28,11 +28,11 @@
   ],
   "private": true,
   "dependencies": {
-    "amber": "^0.14.1"
+    "amber": "^0.14.1",
+    "amber-attic": "^0.1.1"
   },
   "devDependencies": {
     "amber-ide-starter-dialog": "^0.1.0",
-    "helios": "^0.3.0",
-    "amber-attic": "^0.1.1"
+    "helios": "^0.3.0"
   }
 }
