@@ -9,8 +9,6 @@
   </head>
 
   <body>
-  <p>The ProfStef Example</p>
-  <ol id="output-list"></ol>
   <script type='text/javascript'>
       require(['app'], function (amber) {
           amber.initialize({
@@ -18,6 +16,7 @@
             'transport.defaultAmdNamespace': "amber-demo"
           });
           require(["amber-ide-starter-dialog"], function (dlg) { dlg.start(); });
+          amber.globals.DemoHeader._begin_('The ProfStef Example, ');
           amber.globals.TrySmalltalkWidget._open();
       });
   </script>

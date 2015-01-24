@@ -1,4 +1,5 @@
 Smalltalk createPackage: 'IDE'!
+(Smalltalk packageAt: 'IDE') imports: {'codemirror/addon/hint/show-hint'. 'codemirror/lib/codemirror'. 'codemirror/mode/smalltalk/smalltalk'. 'css!./resources/amber'. 'css!codemirror/addon/hint/show-hint'. 'css!codemirror/lib/codemirror'. 'css!codemirror/theme/ambiance'. 'jquery-ui'}!
 Widget subclass: #ClassesList
 	instanceVariableNames: 'browser ul nodes'
 	package: 'IDE'!

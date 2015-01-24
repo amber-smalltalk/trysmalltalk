@@ -1,14 +1,16 @@
 {
   "name": "trysmalltalk",
   "description": "Tutorial to learn Smalltalk",
-  "version": "0.0.3",
+  "version": "0.1.1",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "/test_runner.js",
     "test",
-    "tests"
+    "tests",
+    "/config.js",
+    "/the.js"
   ],
   "authors": [
     {
@@ -24,21 +26,21 @@
   "license": [
     "MIT"
   ],
-  "private": true,
   "dependencies": {
-    "amber": "^0.13.3"
+    "amber": "^0.14.1",
+    "amber-attic": "^0.1.1"
   },
   "devDependencies": {
     "amber-ide-starter-dialog": "^0.1.0",
     "helios": "^0.3.0"
   },
-  "_release": "0.0.3",
+  "_release": "0.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.0.3",
-    "commit": "7e6c58d68c4031e9e2675332a62d8e25536df6b8"
+    "tag": "0.1.1",
+    "commit": "dfdf6ebc8f678ca2fcc21674fa64334c545d7e41"
   },
-  "_source": "git@github.com:tomrake/trysmalltalk.git",
-  "_target": "*",
-  "_originalSource": "git@github.com:tomrake/trysmalltalk.git"
+  "_source": "git://github.com/amber-smalltalk/trysmalltalk.git",
+  "_target": "~0.1.1",
+  "_originalSource": "trysmalltalk"
 }

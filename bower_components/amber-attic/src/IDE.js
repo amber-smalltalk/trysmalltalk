@@ -1,8 +1,9 @@
-define("amber_core/IDE", ["amber/boot", "amber_core/Web", "amber_core/Kernel-Objects", "amber_core/Kernel-Collections", "amber_core/Kernel-Methods"], function($boot){
+define("amber-attic/IDE", ["amber/boot", "codemirror/lib/codemirror", "codemirror/mode/smalltalk/smalltalk", "codemirror/addon/hint/show-hint", "css!codemirror/theme/ambiance", "css!codemirror/lib/codemirror", "css!codemirror/addon/hint/show-hint", "jquery-ui", "css!./resources/amber", "amber_core/Web", "amber_core/Kernel-Objects", "amber_core/Kernel-Collections", "amber_core/Kernel-Methods"], function($boot){
 var $core=$boot.api,nil=$boot.nil,$recv=$boot.asReceiver,$globals=$boot.globals;
-var smalltalk=$core,_st=$recv,globals=$globals;
 $core.addPackage('IDE');
-$core.packages["IDE"].transport = {"type":"amd","amdNamespace":"amber_core"};
+$core.packages["IDE"].innerEval = function (expr) { return eval(expr); };
+$core.packages["IDE"].imports = ["codemirror/addon/hint/show-hint", "codemirror/lib/codemirror", "codemirror/mode/smalltalk/smalltalk", "css!./resources/amber", "css!codemirror/addon/hint/show-hint", "css!codemirror/lib/codemirror", "css!codemirror/theme/ambiance", "jquery-ui"];
+$core.packages["IDE"].transport = {"type":"amd","amdNamespace":"amber-attic"};
 
 $core.addClass('ClassesList', $globals.Widget, ['browser', 'ul', 'nodes'], 'IDE');
 $core.addMethod(
