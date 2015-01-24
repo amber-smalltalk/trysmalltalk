@@ -26,7 +26,6 @@
   "license": [
     "MIT"
   ],
-  "private": true,
   "dependencies": {
     "amber": "^0.14.1",
     "amber-attic": "^0.1.1"
