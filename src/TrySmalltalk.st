@@ -121,7 +121,7 @@ ProfStef next.'
 !
 
 basicTypesCharacters
-	^ Lesson
+	^ Lesson
 title: 'Basic types: Characters' 
 contents: 
 '"A Character can be instantiated using $ operator:"
@@ -351,7 +351,7 @@ For example, let''s create an instance of the class Array:"
 
 Array new
 	add: ''Some text'';
-	add: 3.;
+	add: 3;
 	yourself.
 
 "See the array we''ve created? Actually, #(''Some text'' 3) is just a shorthand for instantiating arrays."
