@@ -32,10 +32,6 @@
   },
   "devDependencies": {
     "amber-ide-starter-dialog": "^0.1.0",
-    "helios": "^0.4.3"
-  },
-  "resolutions": {
-    "amber": "^0.14.13",
-    "helios": "^0.4.3"
+    "helios": "^0.5.2"
   }
 }
