@@ -27,7 +27,8 @@
     "MIT"
   ],
   "dependencies": {
-    "amber": "^0.14.13"
+    "amber": "^0.14.13",
+    "amber-contrib-legacy": "^0.2.0"
   },
   "devDependencies": {
     "amber-ide-starter-dialog": "^0.1.0",
