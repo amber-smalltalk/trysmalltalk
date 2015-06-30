@@ -1,4 +1,8 @@
 node_modules/
 bower_components/
 /config.js
-/the.js
+/Gruntfile.js
+/deploy.js
+/devel.js
+/local.amd.json
+/package.json
