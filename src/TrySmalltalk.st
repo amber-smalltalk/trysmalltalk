@@ -705,7 +705,7 @@ ProfStef class methodAt: #goToNextLesson.
 
 "Then move forward:"
 
-ProfStef perform:#next'
+ProfStef perform: #next'
 !
 
 theEnd
