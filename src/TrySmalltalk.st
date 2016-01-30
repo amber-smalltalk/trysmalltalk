@@ -89,7 +89,7 @@ tableOfContents
 	'loops'
 	'iterators'
 
-	'instanciation'
+	'instantiation'
 
 	'reflection'
 	'reflectionContinued'
@@ -121,7 +121,7 @@ ProfStef next.'
 !
 
 basicTypesCharacters
-	^ Lesson
+	^ Lesson
 title: 'Basic types: Characters' 
 contents: 
 '"A Character can be instantiated using $ operator:"
@@ -341,9 +341,9 @@ window alert: ''hello world!!''.
 ProfStef next.'
 !
 
-instanciation
+instantiation
 	^ Lesson
-title: 'Instanciation' 
+title: 'Instantiation' 
 contents: 
 '"Objects are instances of their class. Usually, we send the message #new to a class for creating an instance of this class.
 
@@ -841,7 +841,6 @@ first
 
 go
 	self first.
-
 !
 
 next
