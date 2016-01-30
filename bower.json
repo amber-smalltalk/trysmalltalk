@@ -1,7 +1,7 @@
 {
   "name": "trysmalltalk",
   "description": "Tutorial to learn Smalltalk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -27,7 +27,7 @@
     "MIT"
   ],
   "dependencies": {
-    "amber": "^0.14.13",
+    "amber": ">=0.14.13 <0.14.17",
     "amber-contrib-legacy": "^0.2.0"
   },
   "devDependencies": {
