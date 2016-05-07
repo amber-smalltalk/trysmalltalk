@@ -6,7 +6,35 @@ Tutorial to learn Smalltalk, on-line here http://amber-smalltalk.github.io/trysm
 This project is an [Amber Smalltalk](http://amber-lang.net/)  example. Amber may run in a web browser or as a command line program.
 
 
-Tools needed
+MOVED
+====
+
+Try Smalltalk is now at https://lolg.it/amber/trysmalltalk.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+ools needed
 ------------
 
 1. A web browser with reasonably good support for HTML5 canvas.
